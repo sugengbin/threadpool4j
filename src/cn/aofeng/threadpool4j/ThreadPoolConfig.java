@@ -9,9 +9,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
-import cn.aofeng.common4j.ILifeCycle;
-import cn.aofeng.common4j.xml.DomUtil;
-import cn.aofeng.common4j.xml.NodeParser;
+import cn.aofeng.threadpool4j.common.DomUtil;
+import cn.aofeng.threadpool4j.common.ILifeCycle;
+import cn.aofeng.threadpool4j.common.NodeParser;
 
 /**
  * 从配置文件（/biz/threadpool4j.xml）读取配置信息并存储在内存中。

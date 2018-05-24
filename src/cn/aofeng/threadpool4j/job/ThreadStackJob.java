@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import cn.aofeng.common4j.lang.SystemUtil;
+import cn.aofeng.threadpool4j.common.SystemUtil;
 
 /**
  * 收集所有线程的堆栈信息并输出到文件。

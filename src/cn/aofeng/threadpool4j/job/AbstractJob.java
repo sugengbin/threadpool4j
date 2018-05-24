@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import cn.aofeng.common4j.ILifeCycle;
+import cn.aofeng.threadpool4j.common.ILifeCycle;
 
 /**
  * 抽象job类。

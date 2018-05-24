@@ -1,11 +1,15 @@
 package cn.aofeng.threadpool4j;
 
-import static org.easymock.EasyMock.*;
+import static org.easymock.EasyMock.createMock;
+import static org.easymock.EasyMock.expectLastCall;
+import static org.easymock.EasyMock.replay;
+import static org.easymock.EasyMock.verify;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import cn.aofeng.common4j.ILifeCycle;
+import cn.aofeng.threadpool4j.common.ILifeCycle;
 
 /**
  * {@link ThreadPoolManager}的单元测试用例。

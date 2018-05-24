@@ -1,6 +1,6 @@
 package cn.aofeng.threadpool4j;
 
-import cn.aofeng.common4j.ILifeCycle;
+import cn.aofeng.threadpool4j.common.ILifeCycle;
 
 /**
  * 线程池实例管理。
